@@ -13,7 +13,9 @@ app.use(cors({
 }));
 
 connectDB();
-
+app.get("/" , (req, res) => {
+  res.send("Hey")
+})
 // Auth routes (imported separately)
 app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/jobs', require('./routes/jobRoutes'));
