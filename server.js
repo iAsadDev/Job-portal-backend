@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Setup CORS for your frontend URL
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://zesty-elf-3758a7.netlify.app',
   credentials: true,
 }));
 
