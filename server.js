@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Setup CORS for your frontend URL
 app.use(cors({
-  origin: 'https://zesty-elf-3758a7.netlify.app',
+  origin: 'https://jobhuntportal-z.netlify.app',
   credentials: true,
 }));
 
